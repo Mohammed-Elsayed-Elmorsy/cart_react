@@ -1,0 +1,75 @@
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    box-shadow: 0 0 13px #ddd;
+    background-color: white;
+    padding: 10px;
+    padding: 10px 50px;
+}
+
+header .logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 25%;
+    color: black;
+    text-transform: capitalize;
+}
+
+
+header nav a {
+    padding: 10px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    color: orangered;
+}
+
+.cart_link {
+    position: relative;
+}
+
+.cart_count.show {
+    position: absolute;
+    top: -5px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(240, 11, 11);
+    color: white;
+    border-radius: 50%;
+    right: -5px;
+    text-align: center;
+    line-height: 18px;
+    padding: 1px;
+}
+
+.icon {
+    color: rgb(93, 91, 91);
+}
+
+.cart_count.hide {
+    display: none;
+}
+
+button {
+    border: 1px solid #ddd;
+    background-color: rgb(11, 140, 226);
+    color: white;
+    padding: 7px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+}
+
+button:active {
+    transform: scale(0.94);
+}
